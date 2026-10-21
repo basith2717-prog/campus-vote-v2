@@ -12,3 +12,4 @@ try:
     seed_data()
 except Exception as e:
     print(f"Vercel serverless startup DB note: {e}")
+handler = app
